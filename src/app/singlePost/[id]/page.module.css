@@ -1,0 +1,115 @@
+.commentContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #e0cffc;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.form{
+   max-width: 600px;
+width: 100%;
+margin-bottom: 50px;
+}
+
+
+.singlePostImg{
+margin: 0 auto;
+margin-bottom: 40px;
+}
+
+.singlePostImg img {
+width: 100%;
+}
+
+.inputFlex{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.textarea{
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.inputAuthor{
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.authorSndSubmitWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitButton{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.singleComment{
+    background-color: #fff;
+    border-radius: 5px;
+padding: 10px 10px;
+display: flex;
+flex-direction: column;
+margin-bottom: 30px;
+}
+
+.author{
+color: #290661;
+font-size: 18px;
+font-weight: bold;
+}
+
+.commentText{
+font-size: 15px;
+}
+
+.title{
+    text-align: center;
+}
+.blogEditForm{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #000000; 
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.blogEditForm img {
+    width: 200px;
+}
+
+.buttonFlex{
+    display: flex;
+    gap: 50px;
+    align-self: center;
+    padding-top: 30px;
+}
+
+.buttonFlex_button{
+    border: none;
+    background-color: #290661;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.editButton{
+    background-color: #290661;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
